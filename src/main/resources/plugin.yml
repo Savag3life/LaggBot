@@ -1,0 +1,5 @@
+name: LaggBot
+main: me.savag3.lagg.Lagg
+version: 1.0
+author: [ Savag3life, GucciDev ]
+depend: [ spark ]
