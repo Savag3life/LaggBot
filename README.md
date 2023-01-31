@@ -1,5 +1,5 @@
 ## Lagg Bot
-A Spigot TPS monitoring bot to collect samplers & lag metrics automatically when a server drops below a configurable TPS value. Lagg Bot utilizes [Spark](https://github.com/lucko/spark) to collect & view timings for Java processes.
+A Spigot TPS monitoring bot to collect samplers & lag metrics automatically when a server drops below a configurable TPS value. Lagg Bot utilizes [Spark](https://github.com/lucko/spark) to collect & view timings for Java processes. Once a sampler has been created & posted to Spark, Lagg Bot will automatically post a link to the sampler in the Discord channel of your choice using Discord webhooks.
 
 ### Config
 ```json
