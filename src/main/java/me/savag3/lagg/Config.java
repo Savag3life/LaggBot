@@ -29,11 +29,11 @@ public class Config {
     public static boolean IGNORE_SLEEPING_IN_SPARK_SAMPLER = true;
 
     public static void save() {
-        Lagg.getInstance().getJson().save(instance, new File(Lagg.getInstance().getDataFolder(), "config.yml"));
+        Lagg.getInstance().getJson().save(instance, new File(Lagg.getInstance().getDataFolder(), "config.json"));
     }
 
     public static void load() {
-        Lagg.getInstance().getJson().loadOrSaveDefault(instance, new File(Lagg.getInstance().getDataFolder(), "config.yml"), Config.class);
+        Lagg.getInstance().getJson().loadOrSaveDefault(instance, new File(Lagg.getInstance().getDataFolder(), "config.json"), Config.class);
     }
 
 }

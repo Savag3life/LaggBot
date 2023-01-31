@@ -29,6 +29,7 @@ public class Lagg extends JavaPlugin {
     public void onEnable() {
         instance = this;
 
+        getDataFolder().mkdirs();
         Config.load();
 
         if (!checkEnabled("Spark")) {
